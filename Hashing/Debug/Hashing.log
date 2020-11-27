@@ -1,0 +1,55 @@
+﻿Build started 25/4/2561 2:18:20.
+     1>Project "D:\peach\งาน\ป ตรี\Structure\Hashing\Hashing\Hashing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(197): warning C4018: '>' : signed/unsigned mismatch
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(192) : while compiling class template member function 'void HashTable<int>::insert(const HashedObj &)'
+                 with
+                 [
+                     HashedObj=int
+                 ]
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\source.cpp(36) : see reference to function template instantiation 'void HashTable<int>::insert(const HashedObj &)' being compiled
+                 with
+                 [
+                     HashedObj=int
+                 ]
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\source.cpp(6) : see reference to class template instantiation 'HashTable<int>' being compiled
+     1>d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(133): warning C4018: '<' : signed/unsigned mismatch
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(130) : while compiling class template member function 'void HashTable<int>::print(void)'
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\source.cpp(52) : see reference to function template instantiation 'void HashTable<int>::print(void)' being compiled
+     1>d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(147): warning C4018: '<' : signed/unsigned mismatch
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(145) : while compiling class template member function 'void HashTable<int>::makeEmpty(void)'
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(54) : see reference to function template instantiation 'void HashTable<int>::makeEmpty(void)' being compiled
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(52) : while compiling class template member function 'HashTable<int>::HashTable(const HashedObj &,int)'
+                 with
+                 [
+                     HashedObj=int
+                 ]
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\source.cpp(6) : see reference to function template instantiation 'HashTable<int>::HashTable(const HashedObj &,int)' being compiled
+                 with
+                 [
+                     HashedObj=int
+                 ]
+     1>d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(168): warning C4018: '>=' : signed/unsigned mismatch
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(161) : while compiling class template member function 'int HashTable<int>::findPos(const HashedObj &) const'
+                 with
+                 [
+                     HashedObj=int
+                 ]
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(154) : see reference to function template instantiation 'int HashTable<int>::findPos(const HashedObj &) const' being compiled
+                 with
+                 [
+                     HashedObj=int
+                 ]
+     1>d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(221): warning C4018: '<' : signed/unsigned mismatch
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(215) : while compiling class template member function 'void HashTable<int>::rehash(void)'
+                 d:\peach\งาน\ป ตรี\structure\hashing\hashing\header.h(198) : see reference to function template instantiation 'void HashTable<int>::rehash(void)' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\peach\งาน\ป ตรี\Structure\Hashing\Debug\Hashing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\peach\งาน\ป ตรี\Structure\Hashing\Debug\Hashing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\peach\งาน\ป ตรี\Structure\Hashing\Debug\Hashing.lib" /MACHINE:X86 Debug\Source.obj
+         Hashing.vcxproj -> D:\peach\งาน\ป ตรี\Structure\Hashing\Debug\Hashing.exe
+     1>Done Building Project "D:\peach\งาน\ป ตรี\Structure\Hashing\Hashing\Hashing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63
